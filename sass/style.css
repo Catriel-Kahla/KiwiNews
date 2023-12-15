@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.imgBackHeader {
+  position: absolute;
+  background-image: url("../img/back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 10vh;
+}
+
+header {
+  position: absolute;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+header div {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5em;
+  width: 5em;
+}
+header div img {
+  height: 5em;
+}
+
+#divCenter {
+  width: auto;
+}
+
+main {
+  background-color: rgba(194, 194, 194, 0.153);
+  margin-top: 12vh;
+  margin-left: 3vw;
+  width: 90vw;
+  height: 84vh;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vw 1vh;
+}
+main div {
+  background-color: rgb(203, 254, 254);
+  height: 32vh;
+  width: 18vh;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 3vh 1vw 3vh 1vw;
+  border: 1px dashed;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+main div img {
+  height: 10vh;
+}
+
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  background-image: url("../img/pettern.jpg");
+  opacity: 2%;
+}/*# sourceMappingURL=style.css.map */
