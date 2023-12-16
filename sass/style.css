@@ -28,14 +28,15 @@ header div {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 5em;
-  width: 5em;
+  height: 75px;
+  width: 75px;
 }
 header div img {
-  height: 5em;
+  height: 75px;
 }
 
 #divCenter {
+  font-size: 20px;
   width: auto;
 }
 
@@ -44,18 +45,18 @@ main {
   margin-top: 12vh;
   margin-left: 3vw;
   width: 90vw;
-  height: 84vh;
+  height: 200vh;
+  margin-bottom: 2vh;
   border-radius: 7px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 1vw 1vh;
 }
 main div {
   background-color: rgb(203, 254, 254);
-  height: 32vh;
-  width: 18vh;
+  height: 30vh;
+  width: 50vw;
   border-radius: 7px;
   display: flex;
   align-items: center;
@@ -68,11 +69,19 @@ main div {
 main div img {
   height: 10vh;
 }
+main div div:hover {
+  height: 38vh;
+  width: 18vw;
+}
 
 .back {
   position: absolute;
-  height: 100%;
+  height: 100vh;
   width: 100vw;
   background-image: url("../img/pettern.jpg");
   opacity: 2%;
+}
+
+body {
+  width: 100vw;
 }/*# sourceMappingURL=style.css.map */
