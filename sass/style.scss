@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imgBackHeader{
+    position: absolute;
+    background-image: url("../img/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 10vh;
+}
+
+header{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+
+    div{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        width: 75px;
+        img{
+            height: 75px;
+        }
+}
+}
+
+
+#divCenter{
+    font-size: 20px;
+    width: auto;
+} 
+
+
+main{
+    background-color: rgba(194, 194, 194, 0.153);
+    margin-top: 12vh;
+    margin-left: 5vw;
+    width: 90vw;
+    height: 82vh;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    section{
+        background: rgb(150, 0, 200);
+        background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(102, 0, 255, 0.20) 100%);
+        height: auto;
+        width: 70vw;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 1vh 1vw;
+        border: 1px dashed;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        z-index: 1;
+        h2{
+            font-size: 50px;
+            margin-bottom: 2vh;
+        }
+
+        p{
+            margin: 0 1vw;
+        }
+
+        img{
+            margin: 2vh 0;
+            height: 10vh;
+        }
+        
+    }
+    .y2024{
+        background: rgb(150, 0, 200);
+        background: linear-gradient(90deg, rgba(0, 200, 140, 0.35) 0%, rgba(0, 102, 255, 0.2) 100%);
+    }
+    .years{
+        background: rgb(150, 0, 200);
+        background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(0, 200, 140, 0.2) 100%);
+    }
+
+}
+
+.back{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/pettern.jpg");
+    opacity: 2%;
+}
+body{
+    width: 100vw;
+}

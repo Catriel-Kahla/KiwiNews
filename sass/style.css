@@ -79,6 +79,14 @@ main section img {
   margin: 2vh 0;
   height: 10vh;
 }
+main .y2024 {
+  background: rgb(150, 0, 200);
+  background: linear-gradient(90deg, rgba(0, 200, 140, 0.35) 0%, rgba(0, 102, 255, 0.2) 100%);
+}
+main .years {
+  background: rgb(150, 0, 200);
+  background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(0, 200, 140, 0.2) 100%);
+}
 
 .back {
   position: absolute;
