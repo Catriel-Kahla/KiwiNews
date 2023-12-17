@@ -43,10 +43,9 @@ header div img {
 main {
   background-color: rgba(194, 194, 194, 0.153);
   margin-top: 12vh;
-  margin-left: 3vw;
+  margin-left: 5vw;
   width: 90vw;
-  height: 200vh;
-  margin-bottom: 2vh;
+  height: 82vh;
   border-radius: 7px;
   display: flex;
   flex-wrap: wrap;
@@ -54,24 +53,29 @@ main {
   align-items: center;
 }
 main div {
-  background-color: rgb(203, 254, 254);
-  height: 30vh;
-  width: 50vw;
+  background: rgb(150, 0, 200);
+  background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(102, 0, 255, 0.2) 100%);
+  height: auto;
+  width: 70vw;
   border-radius: 7px;
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 3vh 1vw 3vh 1vw;
+  padding: 1vh 1vw;
   border: 1px dashed;
   flex-wrap: nowrap;
   flex-direction: column;
 }
-main div img {
-  height: 10vh;
+main div h2 {
+  font-size: 50px;
+  margin-bottom: 2vh;
 }
-main div div:hover {
-  height: 38vh;
-  width: 18vw;
+main div p {
+  margin: 0 1vw;
+}
+main div img {
+  margin: 2vh 0;
+  height: 10vh;
 }
 
 .back {
