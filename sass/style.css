@@ -22,6 +22,7 @@ header {
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
+  z-index: 2;
 }
 header div {
   position: relative;
@@ -52,7 +53,7 @@ main {
   justify-content: space-around;
   align-items: center;
 }
-main div {
+main section {
   background: rgb(150, 0, 200);
   background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(102, 0, 255, 0.2) 100%);
   height: auto;
@@ -65,15 +66,16 @@ main div {
   border: 1px dashed;
   flex-wrap: nowrap;
   flex-direction: column;
+  z-index: 1;
 }
-main div h2 {
+main section h2 {
   font-size: 50px;
   margin-bottom: 2vh;
 }
-main div p {
+main section p {
   margin: 0 1vw;
 }
-main div img {
+main section img {
   margin: 2vh 0;
   height: 10vh;
 }
