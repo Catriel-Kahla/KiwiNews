@@ -109,7 +109,7 @@ body {
   flex-direction: column;
   padding-top: 2vh;
   text-align: center;
-  height: 960vh;
+  height: 1060vh;
 }
 .nmain h2 {
   font-size: 30px;
@@ -147,5 +147,5 @@ body {
 }
 
 .nback {
-  height: 980vh;
+  height: 1080vh;
 }/*# sourceMappingURL=style.css.map */
