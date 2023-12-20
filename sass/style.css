@@ -110,6 +110,7 @@ body {
   padding-top: 2vh;
   text-align: center;
   height: 1060vh;
+  flex-wrap: nowrap;
 }
 .nmain h2 {
   font-size: 30px;
