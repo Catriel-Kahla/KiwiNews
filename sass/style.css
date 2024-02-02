@@ -113,7 +113,7 @@ body {
   flex-wrap: nowrap;
 }
 .nmain h2 {
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: underline;
   margin-bottom: 2vh;
 }
@@ -124,7 +124,7 @@ body {
 }
 .nmain p {
   margin: 0 2vw 2vh 2vw;
-  font-size: 20px;
+  font-size: 30px;
 }
 .nmain div {
   padding: 0 2vw;
@@ -134,7 +134,7 @@ body {
   margin-bottom: 2em;
 }
 .nmain div label {
-  font-size: 20px;
+  font-size: 35px;
   text-decoration: underline;
 }
 .nmain div img {
