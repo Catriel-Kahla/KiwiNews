@@ -131,10 +131,14 @@ body {
   width: 85%;
   height: auto;
   text-align: start;
+  margin-bottom: 2em;
 }
 .nmain div label {
   font-size: 20px;
   text-decoration: underline;
+}
+.nmain div img {
+  width: 75vw;
 }
 .nmain div ul {
   margin-left: 4vw;

@@ -117,7 +117,8 @@ body{
     flex-direction: column;
     padding-top: 2vh;
     text-align: center;
-    height: 930vh;
+    height: 1060vh;
+    flex-wrap: nowrap;
     h2{
         font-size: 30px;
         text-decoration: underline;
@@ -126,6 +127,7 @@ body{
     iframe{
         height: 20vh;
         margin-bottom: 2vh;
+        z-index: 1;
     }
     p{
         margin: 0 2vw 2vh 2vw;
@@ -136,9 +138,13 @@ body{
         width: 85%;
         height: auto;
         text-align: start;
+        margin-bottom: 2em;
         label{
             font-size: 20px;
             text-decoration: underline;
+        }
+        img{
+            width: 75vw;
         }
         ul{
             margin-left: 4vw;
@@ -151,5 +157,5 @@ body{
     }
 }
 .nback{
-    height: 950vh;
+    height: 1080vh;
 }
