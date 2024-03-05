@@ -3,19 +3,14 @@
   margin: 0;
 }
 
-.imgBackHeader {
-  position: absolute;
+header {
+  position: sticky;
+  top: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   background-image: url("../img/back.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 10vh;
-}
-
-header {
-  position: absolute;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   width: 100vw;
   height: 10vh;
   display: flex;
@@ -29,22 +24,24 @@ header div {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 75px;
-  width: 75px;
+  padding: 0;
+  height: 10vh;
+  width: 200px;
 }
 header div img {
-  height: 75px;
+  height: 150px;
   cursor: pointer;
 }
 
 #divCenter {
-  font-size: 20px;
+  font-size: 40px;
   width: auto;
 }
 
 main {
   background-color: rgba(194, 194, 194, 0.153);
-  margin-top: 12vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   margin-left: 5vw;
   width: 90vw;
   height: 82vh;
@@ -70,11 +67,12 @@ main section {
   z-index: 1;
 }
 main section h2 {
-  font-size: 50px;
+  font-size: 55px;
   margin-bottom: 2vh;
 }
 main section p {
   margin: 0 1vw;
+  font-size: 40px;
 }
 main section img {
   margin: 2vh 0;
@@ -91,17 +89,10 @@ main .years {
   cursor: pointer;
 }
 
-.back {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../img/pettern.jpg");
-  z-index: 0;
-  opacity: 2%;
-}
-
 body {
   width: 100vw;
+  background: rgb(209, 182, 91);
+  background: radial-gradient(circle, rgba(209, 182, 91, 0.7) 0%, rgba(233, 202, 148, 0.1) 100%);
 }
 
 .nmain {
@@ -109,7 +100,7 @@ body {
   flex-direction: column;
   padding-top: 2vh;
   text-align: center;
-  height: 1060vh;
+  height: auto;
   flex-wrap: nowrap;
 }
 .nmain h2 {
@@ -149,8 +140,4 @@ body {
 }
 .nmain div ul li {
   margin-top: 2vh;
-}
-
-.nback {
-  height: 1080vh;
 }/*# sourceMappingURL=style.css.map */
