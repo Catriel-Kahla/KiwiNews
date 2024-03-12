@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sawarabi+Mincho&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,41 +8,59 @@
 header {
   position: sticky;
   top: 0;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  background-image: url("../img/back.jpeg");
-  background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 10vh;
+  height: 12.6vh;
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+  z-index: 2;
+}
+header section {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  z-index: 2;
 }
-header div {
+header section div {
   position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0;
+  padding-top: 10px;
   height: 10vh;
   width: 200px;
 }
-header div img {
+header section div img {
   height: 150px;
   cursor: pointer;
 }
+header .sectTwo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+header .sectTwo hr {
+  width: 95vw;
+  background-color: black;
+  border-width: 1px;
+  border-color: black;
+}
+header .sectTwo label {
+  width: 90%;
+  font-family: "Sawarabi Mincho", serif;
+  font-size: 25px;
+}
 
 #divCenter {
-  font-size: 40px;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+  font-style: normal;
   width: auto;
 }
 
 main {
-  background-color: rgba(194, 194, 194, 0.153);
-  margin-top: 2vh;
+  margin-top: 1vh;
   margin-bottom: 2vh;
   margin-left: 5vw;
   width: 90vw;
@@ -91,14 +111,14 @@ main .years {
 
 body {
   width: 100vw;
-  background: rgb(209, 182, 91);
-  background: radial-gradient(circle, rgba(209, 182, 91, 0.7) 0%, rgba(233, 202, 148, 0.1) 100%);
+  background-image: url("../img/backpaper.jpg");
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .nmain {
   justify-content: flex-start;
   flex-direction: column;
-  padding-top: 2vh;
   text-align: center;
   height: auto;
   flex-wrap: nowrap;
@@ -118,6 +138,9 @@ body {
   font-size: 30px;
 }
 .nmain div {
+  border-color: rgba(38, 38, 38, 0.187);
+  border-style: solid;
+  border-radius: 14px;
   padding: 0 2vw;
   width: 85%;
   height: auto;
