@@ -10,7 +10,7 @@ header {
   top: 0;
   background-size: cover;
   width: 100vw;
-  height: 12.6vh;
+  height: auto;
   -webkit-backdrop-filter: blur(14px);
           backdrop-filter: blur(14px);
   z-index: 2;
@@ -26,12 +26,12 @@ header section div {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 0.5vh;
   height: 10vh;
-  width: 200px;
+  width: 19vw;
 }
 header section div img {
-  height: 150px;
+  height: 9vh;
   cursor: pointer;
 }
 header .sectTwo {
@@ -49,11 +49,11 @@ header .sectTwo hr {
 header .sectTwo label {
   width: 90%;
   font-family: "Sawarabi Mincho", serif;
-  font-size: 25px;
+  font-size: 1.8em;
 }
 
 #divCenter {
-  font-size: 60px;
+  font-size: 3.6em;
   font-family: "Dancing Script", cursive;
   font-style: normal;
   width: auto;
@@ -87,15 +87,15 @@ main section {
   z-index: 1;
 }
 main section h2 {
-  font-size: 55px;
+  font-size: 4em;
   margin-bottom: 2vh;
 }
 main section p {
   margin: 0 1vw;
-  font-size: 40px;
+  font-size: 2.5em;
 }
 main section img {
-  margin: 2vh 0;
+  margin: 1vh 0;
   height: 10vh;
 }
 main .y2024 {
@@ -114,6 +114,7 @@ body {
   background-image: url("../img/backpaper.jpg");
   background-repeat: repeat;
   background-size: contain;
+  font-size: 16px;
 }
 
 .nmain {
@@ -124,7 +125,7 @@ body {
   flex-wrap: nowrap;
 }
 .nmain h2 {
-  font-size: 40px;
+  font-size: 3.5em;
   text-decoration: underline;
   margin-bottom: 2vh;
 }
@@ -135,7 +136,7 @@ body {
 }
 .nmain p {
   margin: 0 2vw 2vh 2vw;
-  font-size: 30px;
+  font-size: 2.8em;
 }
 .nmain div {
   border-color: rgba(38, 38, 38, 0.187);
@@ -148,11 +149,12 @@ body {
   margin-bottom: 2em;
 }
 .nmain div label {
-  font-size: 35px;
+  font-size: 2.5em;
   text-decoration: underline;
 }
 .nmain div img {
   width: 75vw;
+  border-radius: 10px;
 }
 .nmain div ul {
   margin-left: 4vw;
@@ -167,5 +169,31 @@ body {
 
 footer {
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
+}
+
+@media screen and (min-width: 1151px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 950px) {
+  body {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 8px;
+  }
 }/*# sourceMappingURL=style.css.map */
