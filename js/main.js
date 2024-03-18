@@ -13,4 +13,8 @@ document.getElementById("nfeb").addEventListener('click', () => {
     location.href = "pages/n_feb.html";
 });
 
+document.getElementById("nmar").addEventListener('click', () => {
+    location.href = "pages/n_mar.html";
+});
+
 
