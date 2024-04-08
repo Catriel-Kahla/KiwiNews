@@ -78,7 +78,7 @@ main{
     
     section{
         background: rgb(150, 0, 200);
-        background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(102, 0, 255, 0.20) 100%);
+        background: linear-gradient(90deg, rgba(150, 0, 200, 0.711) 0%, rgb(102, 0, 255) 100%);
         height: auto;
         width: 70vw;
         border-radius: 7px;
@@ -108,7 +108,7 @@ main{
     }
     .y2024{
         background: rgb(150, 0, 200);
-        background: linear-gradient(90deg, rgba(0, 200, 140, 0.35) 0%, rgba(0, 102, 255, 0.2) 100%);
+        background: linear-gradient(90deg, rgba(0, 133, 200, 0.2) 0%, rgba(81, 0, 255, 0.2) 100%);
         cursor: pointer;
     }
     .years{
@@ -125,6 +125,10 @@ body{
     background-repeat: repeat;
     background-size: contain;
     font-size: 16px;
+}
+
+.bodyIn{
+    background-size: cover;
 }
 
 //------------- News ----------
@@ -189,6 +193,18 @@ footer{
     body{
         font-size: 10px;
     }
+
+    main{
+        section{
+            width: 20vw;
+            height: auto;
+            img{
+                height: auto;
+                width: 18vw;
+            }
+        }
+    }
+
     .nmain{
         display: flex;
         flex-wrap: nowrap;
@@ -210,6 +226,8 @@ footer{
     body{
         font-size: 14px;
     }
+
+    
 }
 
 @media screen and (max-width: 950px){
