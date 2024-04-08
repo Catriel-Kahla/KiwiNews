@@ -176,6 +176,20 @@ footer {
   body {
     font-size: 10px;
   }
+  .nmain {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .nmain div {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 40vw;
+  }
+  .nmain div img {
+    width: 30vw;
+    border-radius: 10px;
+  }
 }
 @media screen and (max-width: 1150px) {
   body {
